@@ -1,0 +1,135 @@
+!!!
+%html
+  %head
+    %title Baraff Law 2014 - Home
+    %link{href: "{{ site.baseurl }}assets/css/style.css", rel: "stylesheet"}/
+    %link{href: "{{ site.baseurl }}assets/css/main.css", rel: "stylesheet"}/
+    %meta{:content => "Andrew Baraff, Attorney at Law, serves small, middle-market and growing businesses and investors in the fields of real estate, commercial transactions, general corporate matters and special situations.", :name => "description"}/
+    %meta{:content => "lawyer, law, real estate", :name => "keywords"}/
+    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}/
+    %meta{:content => "BlPLQOHEK4IuqVpJDIBbnBxZHv7VZuCHe32YPVogA5Y", :name => "google-site-verification"}/
+    %link{:href => "http://cdn2.editmysite.com/css/sites.css?buildTime=1391218103", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "http://cdn1.editmysite.com/editor/libraries/fancybox/fancybox.css?1391218103", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "http://fonts.googleapis.com/css?family=Dosis:400,300,200,700", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "http://fonts.googleapis.com/css?family=Exo:400,300,300italic,200,200italic,700,400italic,700italic", :rel => "stylesheet", :type => "text/css"}/
+    :css
+      .wsite-elements.wsite-not-footer div.paragraph, .wsite-elements.wsite-not-footer p, .wsite-elements.wsite-not-footer .product-block .product-title, .wsite-elements.wsite-not-footer .product-description, .wsite-elements.wsite-not-footer .wsite-form-field label, .wsite-elements.wsite-not-footer .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-size:15px !important;line-height:22px !important;}
+      #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {color:#FFFFFF !important;}
+      .wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+      .wsite-elements.wsite-not-footer h2, .wsite-elements.wsite-not-footer .product-long .product-title, .wsite-elements.wsite-not-footer .product-large .product-title, .wsite-elements.wsite-not-footer .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+      #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+      .wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+      #wsite-title {}
+      .wsite-menu-default a {}
+      .wsite-menu a {}
+      .wsite-elements .wsite-image div, .wsite-elements .wsite-caption {}
+      .wsite-elements .galleryCaptionInnerText {}
+      .fancybox-title {}
+      .wsite-elements .wslide-caption {}
+      .wsite-phone {}
+      .wsite-headline {}
+      .wsite-headline-paragraph {}
+      .wsite-button-inner {}
+      #content blockquote {}
+      .wsite-footer blockquote {}
+      .blog-header h2 a {}
+      h2.wsite-product-title {}
+      .wsite-product .wsite-product-price a {}
+
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"}
+    %script{:src => "http://cdn2.editmysite.com/js/site/main.js?buildTime=1391218103"}
+    :javascript
+      Weebly = Weebly || {};
+      Weebly.Commerce = Weebly.Commerce || {};
+      Weebly.Commerce.hasCart = false;
+    :javascript
+      _W.relinquish && _W.relinquish()
+
+  %body.no-header-page.wsite-theme-dark.wsite-page-index
+    #container
+      %a{:href => "http://www.barafflaw.com"}
+      #newlogo
+        #AHBattorney
+          Andrew Baraff
+          %br/
+          Attorney at Law p
+          %span#dot> .
+          c
+          %span#dot{:style => "position:relative; left:5px"} .
+        #problemssolutions
+          %span{:style => "position:relative; right:50px"} Complex Problems
+          %br/
+          Practical Solutions
+      #main-wrap
+        %nav
+          %ul
+            %li{id: "{% if {{page.title}} == 'Home' %}active{% endif %}"}
+              %a{:href => "{{site.baseurl}}"} Home
+            %li
+              %label{for: 'toggle'} Representative Matters
+              %input#toggle{type: 'checkbox', style:"display:none"}
+              %ul
+                %li{id: "{% if {{page.title}} == 'Acquisitions and Sales' %}active{% endif %}"}
+                  %a{:href => "{{site.baseurl}}representative-matters/acquisitions-and-sales"} Acquisitions and Sales
+                %li{id: "{% if {{page.title}} == 'Financings' %}active{% endif %}"}
+                  %a{:href => "{{site.baseurl}}representative-matters/financings"} Financings
+                %li{id: "{% if {{page.title}} == 'Joint Ventures' %}active{% endif %}"}
+                  %a{:href => "{{site.baseurl}}representative-matters/joint-ventures"} Joint Ventures
+                %li{id: "{% if {{page.title}} == 'Leases' %}active{% endif %}"}
+                  %a{:href => "{{site.baseurl}}representative-matters/leases"} Leases
+                %li{id: "{% if {{page.title}} == 'Outside General Counsel' %}active{% endif %}"}
+                  %a{:href => "{{site.baseurl}}representative-matters/outside-general-counsel"} Outside General Counsel
+                %li{id: "{% if {{page.title}} == 'Litigation' %}active{% endif %}"}
+                  %a{:href => "{{site.baseurl}}representative-matters/litigation"} Litigation
+                %li{id: "{% if {{page.title}} == 'Restructurings' %}active{% endif %}"}
+                  %a{:href => "{{site.baseurl}}representative-matters/restructurings"} Restructurings
+                %li{id: "{% if {{page.title}} == 'Construction and Design Agreements' %}active{% endif %}"}
+                  %a{:href => "{{site.baseurl}}representative-matters/construction-and-design-agreements"} Construction and Design Agreements
+                %li{id: "{% if {{page.title}} == 'Businesses and Trusts' %}active{% endif %}"}
+                  %a{:href => "{{site.baseurl}}representative-matters/family-businesses-and-trusts"} Family Businesses and Trusts
+                %li{id: "{% if {{page.title}} == 'Special Situations' %}active{% endif %}"}
+                  %a{:href => "{{site.baseurl}}representative-matters/special-situations"} Special Situations
+            %li{id: "{% if {{page.title}} == 'Recommendations' %}active{% endif %}"}
+              %a{:href => "{{site.baseurl}}recommendations"} Recommendations
+            %li{id: "{% if {{page.title}} == 'Contact' %}active{% endif %}"}
+              %a{:href => "{{site.baseurl}}contact"} Contact
+          {% if {{page.title}} == 'Home' %}
+          #diploma
+            Rated “AV® Preeminent™” (highest level of professional ability and ethical standards) by Martindale-Hubbell’s® Peer Review™.
+            %br/
+            %br/
+            Named one of the “New York Area’s Top Rated Lawyers of 2013” by Legal Leaders.
+          {% endif %}
+          :javascript
+            if ( {{page.expand}} ) {
+                document.getElementById('toggle').checked = true
+            }
+          :css
+            nav ul li ul {
+               -webkit-transition: max-height 0.4s ease 0.2s;
+               -moz-transition: max-height 0.4s ease 0.2s;
+                 -o-transition: max-height 0.4s ease 0.2s;
+                    transition: max-height 0.4s ease 0.2s;
+            }
+        {{ content }}
+    #footer
+      :javascript
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-38454529-1']);
+        _gaq.push(['_setDomainName', 'barafflaw.com']);
+        _gaq.push(['_setAllowLinker', true]);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      © 2014 Andrew Baraff, Attorney at Law P.C.  All Rights Reserved. |
+      %a{:href => "http://www.barafflaw.com/disclaimer.html"} Disclaimer
+      |
+      %a{:href => "http://www.barafflaw.com/attorney-advertising.html"} Attorney Advertising
+      |
+      %a{:href => "http://www.barafflaw.com/limited-liability.html"} Limited Liability
+      |
+      %a{:href => "http://www.barafflaw.com/website.html"} Website

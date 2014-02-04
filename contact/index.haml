@@ -1,0 +1,36 @@
+:plain
+  ---
+  layout: default
+  title: Contact
+  ---
+
+
+#main
+  #banner
+    .wsite-header
+  #content
+    #wsite-content.wsite-elements.wsite-not-footer
+      %div
+        .wsite-image.wsite-image-border-none{:style => "padding-top:10px;padding-bottom:10px;margin-left:10px;margin-right:0;text-align:left"}
+          %a
+            %img{:alt => "Picture", :src => "uploads/1/5/8/7/15875266/1391408653.jpg", :style => "width:auto;max-width:100%"}/
+          %div{:style => "display:block;font-size:90%"}
+      %h2.wsite-content-title{:style => "text-align:left;"} Contact
+      .paragraph{:style => "text-align:left;"}
+        %font{:size => "2"}
+          %font{:size => "3"}
+            Andrew Baraff
+            %br>/
+            Attorney at Law
+            %font{:size => "3"} P.C.
+            = succeed "825" do
+              %br/
+            Third Avenue, 30th Floor
+            %br>/
+            New York, NY&nbsp; 10022
+            %br/
+            = succeed "212-755-4750" do
+              %br/
+            %br/
+            %a{:href => "mailto:ahbaraff@barafflaw.com", :title => ""} ahbaraff@barafflaw.com
+        %br/
