@@ -72,24 +72,24 @@
               }
         %article#content
           {{ content }}
-      %footer
-        :javascript
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-38454529-1']);
-          _gaq.push(['_setDomainName', 'barafflaw.com']);
-          _gaq.push(['_setAllowLinker', true]);
-          _gaq.push(['_trackPageview']);
+    %footer
+      :javascript
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-38454529-1']);
+        _gaq.push(['_setDomainName', 'barafflaw.com']);
+        _gaq.push(['_setAllowLinker', true]);
+        _gaq.push(['_trackPageview']);
 
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
-        %span{style:"float:left"}© 2014 Andrew Baraff, Attorney at Law P.C.  All Rights Reserved. |
-        %a{:href => "{{site.baseurl}}disclaimer"} Disclaimer
-        |
-        %a{:href => "{{site.baseurl}}attorney-advertising"} Attorney Advertising
-        |
-        %a{:href => "{{site.baseurl}}limited-liability"} Limited Liability
-        |
-        %a{:href => "{{site.baseurl}}website"} Website
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      © 2014 Andrew Baraff, Attorney at Law P.C.  All Rights Reserved. |
+      %a{:href => "{{site.baseurl}}disclaimer"} Disclaimer
+      |
+      %a{:href => "{{site.baseurl}}attorney-advertising"} Attorney Advertising
+      |
+      %a{:href => "{{site.baseurl}}limited-liability"} Limited Liability
+      |
+      %a{:href => "{{site.baseurl}}website"} Website

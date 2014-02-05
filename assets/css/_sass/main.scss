@@ -44,6 +44,7 @@ nav {
 	ul {
 		list-style: none;
 		padding:0;
+		margin:0;
 	}
 	& > ul {
 		& > li:last-child a, & > span:last-child li a {
@@ -81,6 +82,10 @@ nav {
 input:checked + ul {
   max-height: 500px; }
 
+header {
+	margin-bottom: 20px;
+}
+
 header img {
   width: 100%;
 }
@@ -106,10 +111,8 @@ footer {
 	font-family: Arial, Helvetica, sans-serif;
 	border-top: 1px solid #2d2d2d;
 	text-align: right;
-	position: absolute;
-	bottom: 0;
-	left:0;
 	margin: auto 0;
+	padding-right: 5em;
 	line-height: 3em;
 }
 
